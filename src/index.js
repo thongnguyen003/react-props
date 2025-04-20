@@ -5,11 +5,12 @@ import {App} from './component/app/App';
 import {SquareParent} from './component/app/App';
 import reportWebVitals from './reportWebVitals';
 import { Camera } from './component/app/App';
+import { Invoi } from './component/app/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Camera></Camera>
+    <Invoi></Invoi>
   </React.StrictMode>
 );
 

@@ -3,6 +3,7 @@ import './App.css';
 import {One} from '../item/item';
 import {Square} from '../square/square';
 import { CameraLayout } from '../camera/layout/layout';
+import {Invoice} from '../invoice/invoice';
 
 function App() {
   return (
@@ -24,4 +25,9 @@ function Camera(){
     <CameraLayout></CameraLayout>
   );
 }
-export  {App,SquareParent,Camera};
+function Invoi(){
+  return(
+    <Invoice></Invoice>
+  );
+}
+export  {App,SquareParent,Camera,Invoi};
